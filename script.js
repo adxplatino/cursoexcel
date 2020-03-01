@@ -64,7 +64,10 @@ externalScript.type  = "text/javascript";
 externalScript.setAttribute('async',"");
 externalScript.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
 document.getElementById('adsContenedor').appendChild(externalScript);
-//<!-- mar-300x250 -->
+
+var comment = document.createComment("<!-- mar-300x250 -->");
+document.getElementById('adsContenedor').appendChild(comment);
+
 var ins   = document.createElement("ins");
 ins.setAttribute('class','adsbygoogle');
 ins.setAttribute('data-ad-client','ca-pub-6799779205978679');
