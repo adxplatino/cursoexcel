@@ -80,9 +80,8 @@ document.getElementById('adsContenedor').appendChild(inlineScript);
 }
 
 Swal.fire({
-  title: '<strong>Leccion ' + e + '</strong>',
-  
-  html:  'Disfruta nuestro fantástico curso excel gratis. Y si te gusta, ¡compártelo con tus amigos en las redes sociales!' +
+title: '<strong>Leccion ' + e + '</strong>',
+html:  'Disfruta nuestro fantástico curso excel gratis. Y si te gusta, ¡compártelo con tus amigos en las redes sociales!' +
     '</br></br><div class="iframe-container"><iframe title="vimeo-player" src=' + leccion[e] + ' width="100%" height="420" frameborder="0" allowfullscreen></iframe></div></br><div id="adsContenedor"></div></br>',
 showCloseButton: true,
 showConfirmButton: false,
