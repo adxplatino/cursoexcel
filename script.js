@@ -65,7 +65,7 @@ externalScript.setAttribute('async',"");
 externalScript.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
 document.getElementById('adsContenedor').appendChild(externalScript);
 
-var comment = document.createComment(" mar-300x250 ");
+var comment = document.createComment(" cursoexcel-300x250 ");
 document.getElementById('adsContenedor').appendChild(comment);
 
 var ins   = document.createElement("ins");
