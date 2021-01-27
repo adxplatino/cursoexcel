@@ -62,17 +62,19 @@ var video = ["/",
 var externalScript   = document.createElement("script");
 externalScript.type  = "text/javascript";
 externalScript.setAttribute('async',"");
-externalScript.src = "//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
+externalScript.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
 document.getElementById('adsContenedor').appendChild(externalScript);
 
-var comment = document.createComment(" cursoexcel-300x250 ");
+var comment = document.createComment(" infocursosweb_adap_modal ");
 document.getElementById('adsContenedor').appendChild(comment);
 
 var ins   = document.createElement("ins");
 ins.setAttribute('class','adsbygoogle');
+ins.setAttribute('style','display:block');
 ins.setAttribute('data-ad-client','ca-pub-6799779205978679');
-ins.setAttribute('data-ad-slot','8055009178');
-ins.setAttribute('style','display:inline-block;width:300px;height:250px');
+ins.setAttribute('data-ad-slot','8107674249');
+ins.setAttribute('data-ad-format','auto');
+ins.setAttribute('data-full-width-responsive','true'); 
 document.getElementById('adsContenedor').appendChild(ins);
 
 var inlineScript   = document.createElement("script");
